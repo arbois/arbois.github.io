@@ -43,11 +43,12 @@ margin-bottom:1em;
 h3 {
 font-size:100%;
 font-weight:500;
-margin-top:1.8em;
-margin-bottom:0.8em;
+margin-top:0em;
+margin-bottom:0em;
 }
 
 ul {
+  margin-top:0.5em;
   list-style-type: none;
 }
 
@@ -90,12 +91,12 @@ margin-bottom: 1.5em;
 }
 
 .nav {
+font-family: 'Prosto One', cursive;
 font-variant: small-caps;
-font-size: 110%;
-font-weight: 500;
+font-size: 100%;
 text-align:center;
 padding: 0.2em 1em 0.2em 1em; 
-margin: 1.5em 0em 1.5em 0em;
+margin: 0.5em 0em 1.5em 0em;
 background-color:#fff5f5;
 }
 
@@ -113,9 +114,19 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  background-color: coral;
+  background-color: yellow;
 }
 
 a:active {
   text-decoration: none;
+}
+
+.where {
+column-count:2;
+column-width: 350px;
+font-size: 95%;
+line-height: 3vmin;
+overflow: hidden; /* fix for Firefox */
+break-inside: avoid-column;
+-webkit-column-break-inside: avoid;
 }
