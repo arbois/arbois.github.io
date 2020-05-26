@@ -20,7 +20,7 @@
     padding: 0.5vw;
     background: #ffffff;
     color: #000000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'DM Mono', monospace;
     font-size: 3vmin;
     font-weight: 300;
     line-height: 4vmin;
@@ -91,16 +91,16 @@ margin-bottom: 1.5em;
 
 .nav {
 font-variant: small-caps;
-font-size: 90%;
+font-size: 110%;
 font-weight: 500;
 text-align:center;
-padding: 0.5em 1em 0.5em 1em; 
+padding: 0.2em 1em 0.2em 1em; 
 margin: 1.5em 0em 1.5em 0em;
 background-color:#fff5f5;
 }
 
 .space {
-padding: 0vw 0.9vw 0vw 0.9vw;
+padding: 0vw 1vw 0vw 1vw;
 }
 
 a:link {
@@ -112,9 +112,10 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  background-color: coral;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
