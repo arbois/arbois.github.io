@@ -1,2 +1,0 @@
-# uncertaintymindset
-The Uncertainty Mindset
